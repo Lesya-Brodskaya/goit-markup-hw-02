@@ -1,0 +1,243 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--primary-color-background: #F5F5F5;
+--secondary-color-background: #FFFFFF;
+--primary-font: 'Roboto', sans-serif;
+--secondary-font: 'Raleway',sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+   display: block; 
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+/* Logo/Лого */
+
+.page-logo {
+    color: var(--accent-color);
+    font-family: var(--secondary-font);
+    font-style: Bold; 
+    font-size: 26px; 
+    line-height: 1,2; 
+    letter-spacing: 3%;
+}
+
+.logo-header {
+    color: #000000;
+    font-family: var(--secondary-font);
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 3%;
+}
+
+.logo-footer {
+    color: var(--secondary-color-background);
+    font-family: var(--secondary-font);
+        font-style: Bold;
+        font-size: 26px;
+        line-height: 1, 2;
+        letter-spacing: 3%;
+}
+
+/* Header/Шапка */
+
+/* Site nav/Навігація */
+
+.page-header {
+    background-color: var(--secondary-color-background);
+}
+.site-nav .site-link.current {
+    color: var(--accent-color);
+}
+
+.site-link:hover {
+    color: var(--accent-color);
+} 
+.site-link {
+    color: var(--title-text-color);
+    background-color: var(--secondary-color-background);
+    font-style: Medium; 
+    font-size: 14px; 
+    line-height: 1,14; 
+    letter-spacing: 2%;
+}
+
+.contact-link {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-color-background);
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 1,14; 
+    letter-spacing: 2%;    
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+
+/* ГОЛОВНА СТОРІНКА */
+
+/* Button/Кнопка */
+
+.open-btn {
+    color: var(--secondary-color-background);
+    background-color: var(--accent-color);
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 1,9;
+    align: Center Vertical;
+    align: Center;
+    letter-spacing: 6%;
+}
+
+/* Hero/Герой */
+
+.hero-title {
+    color: var(--secondary-color-background);
+    background-color: #2F303A;
+    font-size: 44px;
+    line-height: 1,4;
+    letter-spacing: 6%;
+}
+
+.features-title,
+.examples-title,
+.team-title {
+    color: var(--title-text-color);
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 1, 17;
+    align: Center Vertical;
+    align: Top;
+    letter-spacing: 3%;
+}
+
+/* Features/Переваги */
+
+.features, 
+.examples {
+    background-color: var(--primary-color-background);
+}
+
+.features-list .title {
+    color: var(--title-text-color);
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 3%;
+}
+
+.features-list .text {
+    color: var(--primary-text-color);
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 3%;
+}
+
+/* Examples/Приклади */
+
+
+/* Team/Команда */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-list .text {
+    color: var(--primary-text-color);
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1, 19;
+    align: Center Vertical;
+    align: Top;
+    letter-spacing: 3%;
+}
+
+
+/* ПОРТФОЛІО */
+
+/* Button/Кнопка */
+
+.btn-portfolio {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 1,6;
+    align: Center Vertical;
+    align: Top;
+    letter spacing: 3%;
+}
+
+.btn-portfolio:focus {
+    color:  var(--secondary-color-background) ;
+    background-color: var(--accent-color);
+}
+
+/* Projects/Проекти */
+
+.project-list {
+    background-color: var(--primary-color-background) ;
+}
+
+.project-title {
+    color: var(--title-text-color);
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 2; 
+    letter-spacing: 6%;
+}
+  
+.project-text {
+    color: var(--primary-text-color);
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1,9;
+    letter-spacing: 3%;
+}
+
+/* Footer/Підвал */
+
+.page-footer {
+    background-color: #2F303A;
+}
+
+.adress .text {
+   color: var(--secondary-color-background); 
+   background-color: #2F303A;
+   font-style: Regular;
+   font-size: 14px;
+   line-height: 1,7;
+   letter-spacing: 3%
+}
+
+.adress-link {
+   color: rgba(255, 255, 255, 0.6);
+   background-color: #2F303A;
+   font-style: Regular;
+   font-size: 14px;
+   line-height: 1,7;
+   letter-spacing: 3%;
+}
